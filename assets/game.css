@@ -1,0 +1,59 @@
+body {
+    color: #011936;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #F9DC5C;
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #011936;
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color:#011936;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background: linear-gradient(32deg, green 0%, green 100%)
+}
+
+.incorrect {
+    background: linear-gradient(32deg, red 0%, darkred 100%)
+}
+
+#dispaly {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.display-main-text {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .chocie-container {
+        min-width: 40rem;
+    }
+}
